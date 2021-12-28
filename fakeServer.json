@@ -1,0 +1,149 @@
+{
+  "lawyers": [
+    {
+      "id": 1,
+      "gender": "male",
+      "name": {
+        "title": "Monsieur",
+        "first": "Alex",
+        "last": "Marie"
+      },
+      "location": {
+        "street": {
+          "number": 6636,
+          "name": "Rue de la Fontaine"
+        },
+        "city": "Montpre",
+        "state": "Basel-Landschaft",
+        "country": "Switzerland",
+        "postcode": 4494,
+        "coordinates": {
+          "latitude": "-48.0803",
+          "longitude": "-27.3367"
+        }
+      },
+      "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+      "speciality": "Divorce Lawyer",
+      "availability": [10, 11, 12, 13, 14, 15, 16, 17, 18],
+      "costPerAppointment": 9999
+    },
+    {
+      "id": 2,
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Astrando",
+        "last": "Loef"
+      },
+      "location": {
+        "street": {
+          "number": 251,
+          "name": "Izak van der Horststraat"
+        },
+        "city": "Eyserheide",
+        "state": "Limburg",
+        "country": "Netherlands",
+        "postcode": 59199,
+        "coordinates": {
+          "latitude": "70.2077",
+          "longitude": "-7.4849"
+        }
+      },
+      "picture": "https://randomuser.me/api/portraits/men/82.jpg",
+      "speciality": "Criminal Lawyer",
+      "availability": [10, 11, 12, 13, 14, 15, 16, 17, 18],
+      "costPerAppointment": 12999
+    },
+    {
+      "id": 3,
+      "gender": "female",
+      "name": {
+        "title": "Miss",
+        "first": "Jessica",
+        "last": "Mitchell"
+      },
+      "location": {
+        "street": {
+          "number": 5868,
+          "name": "Windsor Road"
+        },
+        "city": "Aberdeen",
+        "state": "Humberside",
+        "country": "United Kingdom",
+        "postcode": "CB7 7HA"
+      },
+      "picture": "https://randomuser.me/api/portraits/women/62.jpg",
+      "speciality": "Corporate Lawyer",
+      "availability": [10, 11, 12, 13, 14, 15, 16, 17, 18],
+      "costPerAppointment": 15999
+    },
+    {
+      "id": 4,
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "Ülkü",
+        "last": "Yorulmaz"
+      },
+      "location": {
+        "street": {
+          "number": 5668,
+          "name": "Atatürk Sk"
+        },
+        "city": "Rize",
+        "state": "Kırklareli",
+        "country": "Turkey",
+        "postcode": 96285
+      },
+      "picture": "https://randomuser.me/api/portraits/women/27.jpg",
+      "speciality": "Immigration Lawyer",
+      "availability": [10, 11, 12, 13, 14, 15, 16, 17, 18],
+      "costPerAppointment": 2999
+    },
+    {
+      "id": 5,
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Özkan",
+        "last": "Çetin"
+      },
+      "location": {
+        "street": {
+          "number": 8082,
+          "name": "Istiklal Cd"
+        },
+        "city": "Kocaeli",
+        "state": "Kars",
+        "country": "Turkey",
+        "postcode": 24797
+      },
+      "picture": "https://randomuser.me/api/portraits/men/63.jpg",
+      "speciality": "Family Lawyer",
+      "availability": [10, 11, 12, 13, 14, 15, 16, 17, 18],
+      "costPerAppointment": 2999
+    }
+  ],
+  "booking": [
+    {
+      "id": 1,
+      "booked": [10, 12, 15, 11]
+    },
+    {
+      "id": 2,
+      "booked": [10, 13, 15]
+    },
+    {
+      "id": 3,
+      "booked": [10, 12, 14, 11, 13]
+    },
+    {
+      "id": 4,
+      "booked": [10, 12, 14, 16, 17, 13]
+    },
+    {
+      "id": 4,
+      "booked": [10, 12, 14, 16, 17]
+    }
+  ]
+}
