@@ -6,10 +6,10 @@ name: Node.js CI
 on:
   push:
     tags:
-    - 'v*'
+    - '*'
   pull_request:
     tags:
-      - 'v*'
+      - '*'
   
 
 env:
