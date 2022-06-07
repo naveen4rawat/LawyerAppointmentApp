@@ -9,6 +9,7 @@ function LawyerDetails() {
 
   const [lawyer, setLawyer] = React.useState([]);
   const fetchData = async () => {
+    // fadsfasf
     try {
       await fetch("http://localhost:3004/lawyers")
         .then((res) => res.json())
