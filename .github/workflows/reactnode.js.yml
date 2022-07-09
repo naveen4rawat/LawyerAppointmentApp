@@ -5,11 +5,11 @@ name: Node.js CI
 
 on:
   push:
-    tags:
-    - v0.*
+    branches:
+      - main
   pull_request:
-    tags:
-      - v0.*
+    branches:
+      - main
   
 
 env:
@@ -18,7 +18,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     strategy:
       matrix:
@@ -33,12 +33,4 @@ jobs:
       - run: npm install
       - run: npm run build --if-present
       
-      - name: rsync deployments
-        uses: burnett01/rsync-deployments@5.1
-        with:
-          switches: -avzr --delete
-          path: ./*
-          remote_path: /var/www/my-app/
-          remote_host: ec2-3-144-154-63.us-east-2.compute.amazonaws.com
-          remote_user: ubuntu
-          remote_key: "${{ secrets.SSH_PRIVATE_KEY }}"
+
